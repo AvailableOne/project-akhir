@@ -9,6 +9,9 @@ import { DivisionComponent } from './division/division.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AppFooterComponent } from './app-footer/app-footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TambahDataComponent } from './tambah-data/tambah-data.component';
+import { EditDataComponent } from './edit-data/edit-data.component';
+import { HapusDataComponent } from './hapus-data/hapus-data.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { HttpClientModule } from '@angular/common/http';
     AppMenuComponent,
     DivisionComponent,
     DashboardComponent,
-    AppFooterComponent
+    AppFooterComponent,
+    TambahDataComponent,
+    EditDataComponent,
+    HapusDataComponent
   ],
   imports: [
     BrowserModule,
